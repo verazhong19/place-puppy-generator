@@ -1,0 +1,28 @@
+{
+    "name": "place-puppy",
+    "displayName": "place-puppy",
+    "description": "Generate placeholder images of cute puppies in VSCode.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
