@@ -1,8 +1,9 @@
 {
     "name": "place-puppy",
-    "displayName": "place-puppy",
+    "displayName": "Place Puppy Image Generator",
     "description": "Generate placeholder images of cute puppies in VSCode.",
-    "version": "2.0.0",
+    "version": "1.0.1",
+    "publisher": "vera-zhong",
     "repository": {
         "type": "git",
         "url": "https://github.com/verazhong19/place-puppy-generator"

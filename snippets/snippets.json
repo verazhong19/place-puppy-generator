@@ -1,9 +1,16 @@
 {
-    "Place Puppy Template":{
+    "Place Puppy Dimension Template":{
         "prefix": "pp",
         "body": [
             "<img src=\"http://place-puppy.com/${1:Width}x${2:Height}\" alt=\"Placeholder Puppy\">"
         ],
         "description": "Creates starter template to input width and height for puppy placeholder image."
+    },
+    "File Type Template":{
+        "prefix": "ppf",
+        "body": [
+            "<img src=\"http://place-puppy.com/${1:Width}x${2:Height}?f=${3:File Type}\" alt=\"Placeholder Puppy\">"
+        ],
+        "description": "Creates inputs for width, height, and file type (jpg, png, gif)."
     }
 }
